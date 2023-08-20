@@ -12,15 +12,16 @@ We do not have classes and inheritance in Go. <br>
 Though we can still implement <b>Simple Factory<b> pattern.
 
 # Structure
-[Title](icar.go)
+
+<i>icar.go<i>
 Contains interface defination of ICar. 
-[Title](car.go)
+<i>car.go<i>
 Contains base struct of Car with getters and setters for base struct's properties 
-[Title](electric_car.go)   
+<i>electric_car.go<i> 
 Concrete struct of electric car. Implements actual creation of electric car. 
-[Title](petrol_car.go)
+<i>petrol_car.go<i>
 Concrete struct of petrol car. Implements actual creation of petrol car. 
-[Title](car_factory.go)
+<i>car_factory.go<i>
 Contains an abstract createCar function to call actual create functions in concrete structsa. Returns a struct of type ICar.
-[Title](main.go)
+<i>main.go<i>
 Contains sample client code to create electric and petrol cars. 
