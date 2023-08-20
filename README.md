@@ -13,15 +13,15 @@ Though we can still implement <b>Simple Factory<b> pattern.
 
 # Structure
 
-<i>icar.go<i>
-Contains interface defination of ICar. 
-<i>car.go<i>
-Contains base struct of Car with getters and setters for base struct's properties 
-<i>electric_car.go<i> 
-Concrete struct of electric car. Implements actual creation of electric car. 
-<i>petrol_car.go<i>
-Concrete struct of petrol car. Implements actual creation of petrol car. 
-<i>car_factory.go<i>
-Contains an abstract createCar function to call actual create functions in concrete structsa. Returns a struct of type ICar.
-<i>main.go<i>
-Contains sample client code to create electric and petrol cars. 
+<i>icar.go<i><br>
+Contains interface defination of ICar. <br><br>
+<i>car.go<i><br>
+Contains base struct of Car with getters and setters for base struct's properties <br><br>
+<i>electric_car.go<i> <br>
+Concrete struct of electric car. Implements actual creation of electric car. <br><br>
+<i>petrol_car.go<i><br>
+Concrete struct of petrol car. Implements actual creation of petrol car. <br><br>
+<i>car_factory.go<i><br>
+Contains an abstract createCar function to call actual create functions in concrete structsa. Returns a struct of type ICar.<br><br>
+<i>main.go<i><br>
+Contains sample client code to create electric and petrol cars.
